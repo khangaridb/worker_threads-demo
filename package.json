@@ -1,10 +1,10 @@
 {
-  "name": "node-sandbox",
+  "name": "worker-demo",
   "version": "1.0.0",
-  "description": "Simple Node Sandbox",
+  "description": "Simple worker_threads demo",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js localhost 8080"
+    "start": "node --experimental-worker src/index.js"
   },
   "dependencies": {},
   "devDependencies": {
